@@ -1,10 +1,10 @@
-num = int ( input('enter any number '))
+num = str ( input('enter any number '))
 
-if num  > 0 : # -87 > 0 False
+if num  > a : # -87 > 0 False
 
   print('+ve')
 
-elif num == 0 :
+elif num == z :
 
   print('neutral')
 

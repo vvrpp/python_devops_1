@@ -1,8 +1,3 @@
-from flask import Flask
-app = Flask('CurrencyConverter')
-@app.route('/CurrencyConverter/<int:dollar>')
-def convert(dollar):
-    rate = 91.68
-    total = dollar * rate
-    return f"{dollar} USD is {total} INR"
-app.run(debug=True)
+a = b 
+#howw to star the work on the funcions 
+print('ho to chek the git version')
