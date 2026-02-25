@@ -1,13 +1,10 @@
-num = str ( input('enter any number '))
+#print( "hi, \nhow r u" )
 
-if num  > a : # -87 > 0 False
+#x, y, z = 100 , 10 ,20
 
-  print('+ve')
+#print('x',x)
+#print('y',y)
+#print('z',z)
 
-elif num == z :
-
-  print('neutral')
-
-else:
-
-  print('-ve')
+def print_message(message="hi to all"):    
+    print(message)
