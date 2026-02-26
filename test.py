@@ -1,10 +1,14 @@
-#print( "hi, \nhow r u" )
+meter= int(input("enter the value in meter"))
+while meter > 5:
+    print("the value is greater than 5")
+else:
+    print("the value is less than 5")
+print ( meter+1)
 
-#x, y, z = 100 , 10 ,20
+  #  meter = 1
 
-#print('x',x)
-#print('y',y)
-#print('z',z)
+#while meter <= 5:
 
-def print_message(message="hi to all"):    
-    print(message)
+  #print( meter 
+
+  #meter = meter + 1
