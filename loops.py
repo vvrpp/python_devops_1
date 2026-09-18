@@ -1,1 +1,0 @@
-print ('hi all welcome to deops')
