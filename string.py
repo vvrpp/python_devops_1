@@ -35,9 +35,39 @@ print("Rounded value of", num1, "is:", round_result)
 num3 = -10 
 
 abs_result = abs(num3)
-print("Absolute value of", num3, "is:", abs_result)''''
+print("Absolute value of", num3, "is:", abs_result)'''
+
+'''text = "Python is awesome"
+new_text = text.replace("awe", "great")
+print("Modified text:", new_text)'''
+
+import re
+
+'''text = "The quick brown fox"
+pattern = r"brown"
+
+search = re.search(pattern, text)
+if search:
+    print("Pattern found:", search.group())
+else:
+    print("Pattern not found") '''
 
 
+'''import re
 
+text = "The quick brown fox jumps over the lazy brown dog"
+pattern = r"brown"
 
+replacement = "red"
 
+new_text = re.sub(pattern, replacement, text)
+print("Modified text:", new_text)
+'''
+
+'''import re
+
+text = "apple,banana,orange,grape"
+pattern = r","
+
+split_result = re.split(pattern, text)
+print("Split result:", split_result)'''
