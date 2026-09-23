@@ -5,11 +5,12 @@ A function in Python is a block of code that performs a specific task. Functions
 
 Example:
 
+'''python 
 def greet(name):
     return f"Hello, {name}!"
 
 message = greet("Alice")
-print(message)
+print(message)'''
 In this example, greet is a function that takes a name argument and returns a greeting message.
 
 Modules
